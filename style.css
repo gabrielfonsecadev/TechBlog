@@ -1,0 +1,158 @@
+/*Principal da página*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(244, 244, 244);
+}
+
+p {
+    padding-top: 10px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+/*Cabeçalho*/
+#head {
+    background-color: rgb(255, 187, 0);
+    height: 190px;
+    padding-top: 0.1px;
+    text-align: center;
+    min-width: 960px;
+
+}#tec {
+    color: rgb(61, 61, 61);
+    font-size: 50px;
+    margin: 30px;
+}
+
+#blog {
+    color: white;
+}
+
+#head a {
+    text-decoration: none;
+    padding: 10px;
+    font: bold 21px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#head a:link, #head a:visited {
+    color: white;
+    margin: 15px;
+}
+
+#head a:hover {
+    color: rgb(255, 187, 0);
+    background-color: white;
+    margin: 15px;
+}
+
+/*Área de postagens*/
+#main-area {
+    margin: auto;
+    width: 920px;
+    padding: 20px;
+}
+
+#posts {
+    width: 660px;
+    float: left;
+}
+
+.indv-post {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px 20px 60px 20px;
+}
+
+.title {
+    color: rgb(255, 187, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.post-date {
+    font-size: 0.92em;
+    color: rgb(81, 81, 81);
+}
+
+.img-post {
+    padding-top: 15px ;
+    width: 620px;
+    height: 420px;
+}
+
+.play-button {
+    background-color: rgb(255, 187, 0);
+    color: white;
+    padding: 9px 50px;
+    font-size: 19px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.06s ease-in-out;
+    float: right;
+}
+  
+.play-button:hover {
+    background-color: rgb(255, 204, 65);
+}
+  
+.play-button:active {
+    transform: translateY(2px);
+    background-color: rgb(230, 169, 2);
+}
+
+/*Read more*/
+a {
+    color: rgb(230, 169, 2);
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(255, 187, 0);
+}
+
+/*Blocos laterais*/
+#side-blocks, #posts {
+    background-color: rgb(244, 244, 244);
+}
+
+#side-blocks {
+    width: 240px;
+    float: right;
+}
+
+.side-post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.side-tittle {
+    color: rgb(79, 79, 79);
+    background-color: rgb(216, 216, 216);
+    padding: 3px;
+}
+
+.side-links {
+    text-decoration: none;
+    padding: 3px;
+    font-size: 19px;
+}
+
+/*Rodapé*/
+#baseboard {
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
