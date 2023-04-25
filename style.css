@@ -116,21 +116,11 @@ hr {
 }
 
 /*Read more*/
-.side-post a {
+.side-post a, p a {
     color: rgb(230, 169, 2);
 }
 
-.side-post a:hover {
-    color: white;
-    background-color: rgb(255, 187, 0);
-}
-
-p a {
-    color: rgb(230, 169, 2);
-}
-
-
-p a:hover {
+.side-post a:hover, p a:hover {
     color: white;
     background-color: rgb(255, 187, 0);
 }
