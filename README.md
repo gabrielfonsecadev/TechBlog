@@ -1,3 +1,3 @@
 # TechBlog
-This is a model of a tech blog who's purpose is to test my CSS skills.
+Este é um modelo de um blog de tecnologia com várias abas.
 # https://gabrielfonsecadev.github.io/TechBlog/
