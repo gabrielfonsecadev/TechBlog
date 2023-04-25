@@ -24,11 +24,12 @@ hr {
     padding-top: 0.1px;
     text-align: center;
     min-width: 960px;
+}
 
-}#tec {
+#tec {
     color: rgb(61, 61, 61);
     font-size: 50px;
-    margin: 30px;
+    margin: 10px 0px 5px 0px;
 }
 
 #blog {
@@ -50,6 +51,10 @@ hr {
     color: rgb(255, 187, 0);
     background-color: white;
     margin: 15px;
+}
+
+#logo-link a:hover {
+    background-color: rgb(255, 187, 0);
 }
 
 /*Área de postagens*/
@@ -110,11 +115,21 @@ hr {
 }
 
 /*Read more*/
-a {
+.side-post a {
     color: rgb(230, 169, 2);
 }
 
-a:hover {
+.side-post a:hover {
+    color: white;
+    background-color: rgb(255, 187, 0);
+}
+
+p a {
+    color: rgb(230, 169, 2);
+}
+
+
+p a:hover {
     color: white;
     background-color: rgb(255, 187, 0);
 }
